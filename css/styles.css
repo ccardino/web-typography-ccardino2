@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'dragon_fireregular';
+    src: url('dragon_fire-webfont.woff2') format('woff2'),
+         url('dragon_fire-webfont.woff') format('woff');
+         font-display: swap;
+}
+
+html {
+	font-size: 62.5%; /*base of 10*/
+}
+
+body {
+	width: 1440px;
+	margin: 0 auto;
+	font-family: 'Judson', serif;
+	font-size: 1.8rem; /*multiples of 18*/
+	line-height: 1.5; /*18 x 1.5 = 27px grid unit*/
+/*	background-image: linear-gradient(#0ff 0.1rem, transparent 0.1rem);
+	background-size: auto 2.7rem;*/
+	background-color: #fbfbf8;
+	color: #242c38;
+}
+
+.hidden {
+	display: none;
+}
+
+header {
+	background: url("../img/header-bg-1440x783.jpg") center/cover no-repeat fixed;
+	width: 100%;
+	height: 78.3rem;
+	position: relative;
+}
+
+h1 {
+	font-family: 'dragon_fireregular', serif;
+	font-weight: 400;
+	font-size: 31.475rem;
+	line-height: 51.3rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #bee3df;
+}
+
+h2, h3, h4 {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+h2 {
+	font-size: 7.478rem;
+	line-height: 13.5rem;
+	margin: 5.4rem 0 2.7rem 0;
+	color: #3366cc;
+}
+
+h3 {
+	font-size: 3.157rem;
+	line-height: 5.4rem;
+	margin: 5.4rem 0 2.7rem 0;
+}
+
+h4 {
+	font-size: 1.777rem;
+	line-height: 5.4rem;
+	margin: 2.7rem 0;
+}
+
+p {
+	margin-bottom: 2.7rem;
+}
+
+.about,
+.plot,
+.characters,
+.adaptations,
+.sources {
+	padding: 8.1rem 10.8rem;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.menu li {
+	line-height: 2.7;
+	margin: 0 2.7rem;
+	text-align: center;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #bee3df;
+}
+
+.plot,
+.adaptations {
+	background-color: #bee3df;
+	clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+}
+
+.about .text-container,
+.about .image-container {
+	width: 48%;
+}
+
+.about .image-container img {
+	margin-bottom: 2.7rem;
+}
+
+.plot .col {
+	width: 32%;
+	margin: 5.4rem 0 2.7rem 0;
+}
+
+.plot .fixed-bg-one {
+	background: url("../img/plot-hometown-1100x513.jpg") center/cover no-repeat fixed;
+	height: 21.6rem;
+}
+
+.plot .fixed-bg-two {
+	background: url("../img/plot-dragon-flying-1104x480.jpg") center/cover no-repeat fixed;
+	height: 21.6rem;
+}
+
+.characters h2 {
+	text-align: right;
+}
+
+.characters .row,
+.characters .row-reverse {
+	display: flex;
+	padding-bottom: 2.7rem;
+	background-color: #bee3df;
+	border-radius: 50%;
+	margin: 5.4rem 0;
+}
+
+.characters .row-reverse {
+	flex-direction: row-reverse;
+}
+
+.characters .text-container {
+	width: 50%;
+}
+
+.characters .image-container {
+	height: 35.1rem;
+}
+
+.adaptations .text-container,
+.adaptations .image-container {
+	width: 48%;
+}
+
+.adaptations .image-container img {
+	margin-bottom: 2.7rem;
+}
+
+.adaptations .flex-container {
+	margin-bottom: 10.8rem;
+}
+
+.adaptations h3 {
+	margin-top: 0;
+}
