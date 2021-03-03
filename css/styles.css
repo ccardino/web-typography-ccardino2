@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	width: 1440px;
+	width: 144rem;
 	margin: 0 auto;
 	font-family: 'Judson', serif;
 	font-size: 1.8rem; /*multiples of 18*/
@@ -28,7 +28,7 @@ body {
 header {
 	background: url("../img/header-bg-1440x783.jpg") center/cover no-repeat fixed;
 	width: 100%;
-	height: 78.3rem;
+	height: 783px;
 	position: relative;
 }
 
